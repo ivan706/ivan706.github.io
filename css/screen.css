@@ -36,6 +36,7 @@ p {
 
 a {
   color: #00a;
+  text-decoration:none;
 }
 
 a:hover {
@@ -43,7 +44,7 @@ a:hover {
 }
 
 a:visited {
-  color: #a0a;
+  color: #00a;
 }
 
 table {
@@ -87,32 +88,53 @@ ul.posts {
 }
 
 .title {
+  font-size: 110%;
   color: #a00;
   font-weight: bold;
-  margin-bottom: 2em;
+  text-align: justify;
+  background-color: #fafafa;
+  background: -moz-linear-gradient(#fafafa, #eaeaea);
+  background: -webkit-linear-gradient(#fafafa, #eaeaea);
+  position: relative;
+  z-index: 10;
+  border-bottom: 1px solid #cacaca;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.4),0 0px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  line-height: 3.3em;
 }
-
-  .site .title a {
+  .title .title-content{
+    margin: 0em auto;
+    width: 42em;
+  }
+  .title a {
     color: #a00;
+    font-size:1.5em;
     text-decoration: none;
   }
 
-  .site .title a:hover {
+  .title a:hover {
     color: black;
   }
 
-  .site .title a.extra {
+  .title a.extra {
     color: #aaa;
     text-decoration: none;
     margin-left: 1em;
   }
 
-  .site .title a.extra:hover {
+  .title a.extra:hover {
     color: black;
   }
 
   .site .meta {
     color: #aaa;
+  }
+  .site .posts a{
+    font-size: 1.1em;
+    color:black;
+  }
+  .site .posts a:hover{
+    color:#a00;
   }
 
   .site .footer {
@@ -158,6 +180,23 @@ ul.posts {
     padding-top: 10px;
   }
 
+  #post h1 {
+    font-size: 150%;
+    margin-top: 1.5em;
+    padding-top: .5em;
+  }
+  
+  #post h2 {
+    font-size: 120%;
+    margin-top: 1.5em;
+    border-top: 2px solid #e0e0e0;
+    padding-top: .5em;
+  }
+
+  #post a{
+    color:#4183c4;
+  }
+  
   #post pre {
     border: 1px solid #ddd;
     background-color: #eef;
@@ -191,7 +230,12 @@ ul.posts {
   #post pre.terminal code {
     background-color: #333;
   }
-
+  #post blockquote{
+    margin: 1em 0;
+    border-left: 5px solid #ddd;
+    padding-left: .6em;
+    color: #555;
+  }
 #related {
   margin-top: 2em;
 }
