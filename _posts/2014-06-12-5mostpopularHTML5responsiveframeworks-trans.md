@@ -8,27 +8,20 @@ tags: trans
 ================
 ## [HTML5 Boilerplate](http://html5boilerplate.com/)
 
-> [Boilerplate is not a framework, nor does it prescribe any philosophy of development, 
-it's just got some tricks to get your project off the ground quickly and right-footed.](http://html5boilerplate.com/)
+> [Boilerplate 不是一个框架，也没有规定任何开发准则，它仅仅包含了一些可以让你快速搭建项目的技巧。](http://html5boilerplate.com/)
 
-Although it is not a framework I decided to mention it first because it is good starting
-point for any HTML5 project.
-
-It contains features that others don’t have e.g. cross-browser normalization,
-performance optimizations, even optional features like cross-domain XHR and Flash.
+尽管它并不是一个框架，但是我还是决定在这里提到它，因为它对于任何HTML5项目来说都是一个不错的起点。
+它包含了很多其他框架没有的特点，比如“跨浏览器的统一”，“性能的优化”，甚至包括类似“跨域的XHR”以及“FLASH”这些可选功能。
 
 ## [Twitter Bootstrap](http://twitter.github.com/bootstrap/index.html)
 
-> [Twitter Bootstrap is a free
-collection of tools for creating websites and web applications. 
-It contains HTML and CSS-based design templates for typography, 
-forms, buttons, charts, navigation and other interface components, 
-as well as optional JavaScript extensions.](en.wikipedia.org/wiki/Twitter_Bootstrap)
+> [Twitter Bootstrap 是一个开发网页和web应用的免费的工具集合。 
+它包括HTML和机遇CSS而设计的模板，表单，按钮，图标，导航栏以及其他界面元素， 
+还包括一些javascript组件。](en.wikipedia.org/wiki/Twitter_Bootstrap)
 
-Bootstrap is made with [LESS](http://en.wikipedia.org/wiki/LESS_%28stylesheet_language%29) at its core.
+Bootstrap 是基于[LESS](http://en.wikipedia.org/wiki/LESS_%28stylesheet_language%29)的.
 
-I like its 12-column grid system and amazing Javascript plugins, 
-such as modal windows, tooltips, carousel and others.
+我喜欢它的12列网格布局以及js组件，例如模态窗口，tooltips，进度条等。
 
 ## [Zurb Foundation](http://foundation.zurb.com/)
 
