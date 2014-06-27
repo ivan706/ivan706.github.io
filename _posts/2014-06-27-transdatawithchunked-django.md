@@ -8,13 +8,13 @@ tags: django
 ================
 ## Transfer-encoding : chunked
 
-这玩意儿是HTTP1.1自带的东东，主要用于数据分块传输，不知道是啥的详见wiki[http://zh.wikipedia.org/wiki/%E5%88%86%E5%9D%97%E4%BC%A0%E8%BE%93%E7%BC%96%E7%A0%81]，具体我就不赘述了。
+这玩意儿是HTTP1.1自带的东东，主要用于数据分块传输，不知道是啥的详见[wiki](http://zh.wikipedia.org/wiki/%E5%88%86%E5%9D%97%E4%BC%A0%E8%BE%93%E7%BC%96%E7%A0%81)，具体我就不赘述了。
 
 要说这玩意儿有啥好的，就是在大量数据传输的时候，可以分块传输数据，而且它属于http协议原生的，
 浏览器基本都支持(ie9及以下需要hack一下)，不需要引入第三方插件。
 
 本文后端封装chunked数据块是用得django，前端接收使用原生javascript。废话不多说，直接上代码：
-### django
+## django
 
 在django的views.py中
 <pre>
@@ -34,7 +34,7 @@ def stream_response_generator():
     yield '0\r\n\r\n'
 </pre>
 
-### javascript
+## javascript
 
 在接收的javascript文件中
 注意，ajax的responsetext中，接收chunked是增量表示，
