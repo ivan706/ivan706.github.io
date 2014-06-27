@@ -171,7 +171,7 @@ ul.posts {
 /*****************************************************************************/
 
 #post {
-
+  word-wrap: break-word;
 }
 
   /* standard */
@@ -199,8 +199,10 @@ ul.posts {
   
   #post pre {
     border: 1px solid #ddd;
-    background-color: #eef;
+    background-color: #f4f4f4;
     padding: 0 .4em;
+    font-size: 90%;
+    font-family: Monaco, "Courier New", monospace;
   }
 
   #post ul,
