@@ -94,4 +94,4 @@ function go(){
 }
 </pre>
 
-#####转载请注明出处和原作者ivan，谢谢。
+#####转载请注明出处[ivan's view](http://blog.ivan706.com/2014/06/27/transdatawithchunked-django.html)，谢谢。
