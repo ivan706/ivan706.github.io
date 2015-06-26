@@ -31,4 +31,4 @@ Angularjs提供了更换识别符的功能
     </a>
 ```
 
-#####转载请注明出处[ivan's view](http://blog.ivan706.com/2014/06/27/transdatawithchunked-django.html)，谢谢。
+#####转载请注明出处[ivan's view](http://blog.ivan706.com/2014/07/02/angularjstemplatechangesymbol.html)，谢谢。
