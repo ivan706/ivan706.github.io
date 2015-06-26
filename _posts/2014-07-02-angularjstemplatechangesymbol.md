@@ -23,4 +23,4 @@ Angularjs提供了更换识别符的功能
     <a class="btn">
         {%buttonName%}
     </a>
-    ```
+```
