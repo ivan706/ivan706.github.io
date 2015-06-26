@@ -3,6 +3,7 @@ layout: post
 title: Angularjs更换模板标识
 tags: Angularjs
 ---
+
 {{ page.title }}
 ================
 
@@ -12,8 +13,8 @@ Angularjs提供了更换识别符的功能
 
     var app = angular.module('feedback', ['ui.bootstrap']);
     app.config(['$interpolateProvider', function ($interpolateProvider) {
-        $interpolateProvider.startSymbol('{%');
-        $interpolateProvider.endSymbol('%}');
+        $interpolateProvider.startSymbol('{/');
+        $interpolateProvider.endSymbol('/}');
     }]);
 
 这样，我们就可以使用```{% %}```来代替默认的```{{ }}```来使用了。
@@ -21,7 +22,7 @@ Angularjs提供了更换识别符的功能
 例如：
 ```
     <a class="btn">
-        {%buttonName%}
+        {/buttonName/}
     </a>
 ```
 
