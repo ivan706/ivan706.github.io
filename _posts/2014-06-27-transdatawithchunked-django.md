@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ajax请求使用chunked方式从django中获取数据
-tags: django
+tags: Python
 ---
 
 {{ page.title }}
