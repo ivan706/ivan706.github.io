@@ -47,7 +47,9 @@ python中又csv库，直接import进来就可以，操作起来也比较方便�
     </code>
 </pre>
 
-这样我们就写了一个叫做temp.csv的文件，```f.write("\xEF\xBB\xBF")``` 是为了解决乱码问题。
+将代码copy下来，保存成 ```a.py```
+运行： ```python a.py```
+这样我们就在当前目录生成了一个叫做temp.csv的文件，```f.write("\xEF\xBB\xBF")``` 是为了解决乱码问题。
 就这样。
 
-#####转载请注明出处[ivan's view](http://blog.ivan706.com/2014/07/02/angularjstemplatechangesymbol.html)，谢谢。
+#####转载请注明出处[ivan's view](http://blog.ivan706.com/2014/08/15/createcsvfileinpython.html)，谢谢。
